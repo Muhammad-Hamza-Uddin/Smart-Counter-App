@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Full Page */
+.page {
+  min-height: 100vh;
+  padding: 70px 0;
+  transition: background-color 0.3s ease;
+}
+
+/* White Counter Box */
+.container {
+  width: 864px;
+  height: 710px;
+  margin: 0 auto;
+  padding-top: 55px;
+  background-color: white;
+  border-radius: 22px;
+  text-align: center;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+/* Heading */
+h1 {
+  font-size: 64px;
+  color: #123f50;
+  margin-bottom: 45px;
+}
+
+/* Number */
+.counter {
+  font-size: 110px;
+  font-weight: bold;
+  color: #123f50;
+  margin-bottom: 45px;
+}
+
+/* Buttons */
+.btn-row {
+  width: 720px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.btn {
+  background-color: #2f6573;
+  color: white;
+  border: none;
+  border-radius: 11px;
+  padding: 15px 27px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Even / Odd */
+.status {
+  margin-top: 40px;
+  font-size: 42px;
+  font-weight: bold;
+  color: black;
+}
+
+/* Random */
+.random-btn {
+  margin-top: 60px;
+  width: 230px;
+  padding: 16px;
+  background-color: #2f6573;
+  color: white;
+  border: none;
+  border-radius: 11px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
